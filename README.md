@@ -99,7 +99,7 @@ def recieve_guess(already_guessed):
 def play_again():
     return input('Would you like to play HANGMAN again?:').lower().startswith('y')
 
-##take stock of variables
+## take stock of variables
 #letters used in functions: missedletters, correctletters, secretword, already_guessed)
 
 missedletters = ''
@@ -137,4 +137,8 @@ while True:
             game_is_done = False
         else:
             break
+    
+
+    
+
     
